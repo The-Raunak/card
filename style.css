@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    background-color: hsl(217, 54%, 11%);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card{
+    background-color: hsl(216, 50%, 16%);
+    height: 77vh;
+    width: 44vh;
+    border-radius: 12px;
+    display: flex;
+    justify-self: center;
+    flex-direction: column;
+}
+.img1{
+    margin: 16px;
+    height: 39vh;
+    border-radius: 11px;
+}
+
+.head{
+    font-size: 15px;
+    font-weight: 700;
+    font-family: 'Outfit', sans-serif;
+    padding: 8px 18px;
+    color: white;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+}
+.p{
+    
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Outfit', sans-serif;
+    color: hsl(215, 51%, 70%);
+    padding: 8px 18px;
+    font-family: 'Outfit', sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+}
+.bottom{
+    display: flex;
+    align-items: center;
+    padding: 18px;
+    justify-content: space-between;
+}
+svg{
+    padding-right: 8px;
+}
+ .b1{
+    color: hsl(178, 100%, 50%);
+    display: flex;
+    align-items: center;
+} 
+
+.time{
+    padding-bottom: 2px;
+    font-family: 'Outfit', sans-serif;
+}
+.eth{
+    padding-bottom: 2px;
+    font-family: 'Outfit', sans-serif;
+}
+.b2{
+    color: hsl(215, 51%, 70%);
+    display: flex;
+    align-items: center;
+} 
+hr{
+    color: hsl(215, 51%, 70%);
+    width: auto;
+    margin: 0px 18px; 
+}
+.foot{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.img2{
+    margin: 19px 18px;
+    height: 5vh;
+    border: 2px solid white;
+    border-radius: 100%;
+}
+.f1{
+    color: hsl(215, 51%, 70%);
+    margin-right: 3px;
+    font-family: 'Outfit', sans-serif;
+}
+.f2{
+    color: white;
+    font-family: 'Outfit', sans-serif;
+}

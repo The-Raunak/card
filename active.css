@@ -1,0 +1,40 @@
+.overlay{
+        background-color: hsl(178, 100%, 50%);
+        transition: .5s ease;
+        opacity: 0;
+        position: absolute;
+        top: 33%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        width: 39vh;
+        height: 40vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+}
+.image:hover .overlay{
+        opacity: 0.7;
+        width: 39vh;
+        border-radius: 11px;
+}
+.image:hover .img1{
+        opacity: 1;
+}
+.img1{
+        opacity: 1;
+        display: block;
+       transition: .5s ease;
+        backface-visibility: visible;
+        transition-property: margin-right, margin-left;
+        transition-timing-function: ease-out;
+}
+.head:hover{
+        color: hsl(178, 100%, 50%);
+        cursor: pointer;
+}
+.f2:hover{
+        color: hsl(178, 100%, 50%);
+        cursor: pointer;
+}
